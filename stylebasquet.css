@@ -1,0 +1,117 @@
+
+.canchaBasquet {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    border: 5px solid #000;
+    background: #8A4B08;
+}
+
+.canastaLeft {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-top: 80px solid transparent;
+    border-left: 190px solid #61380B;
+    border-bottom: 80px solid transparent;
+    float: left;
+    margin-top: 170px;
+}
+
+.tiroLeft {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #000;
+    background: none;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 140px;
+    margin-top: 245px;
+}
+
+.circunferenciaLeft {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000;
+    border-left: none;
+    background: none;
+    -moz-border-radius: 0 0 0 0;
+    -webkit-border-radius: 0 0 0 0;
+    border-radius: 0 200px 200px 0;
+    margin-top: 100px;
+}
+
+.tresPuntos {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #000;
+    background: none;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 445px;
+    margin-top: 250px;
+}
+
+.centroBasquet {
+    position: absolute;
+    display: inline-block;
+    width: 500px;
+    height: 599px;
+    border: 5px solid #000;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    margin-top: -600px;
+    z-index: 0;
+}
+
+.circunferenciaRight {
+    position: absolute;
+    display: inline-block;
+    width: 250px;
+    height: 400px;
+    border: 5px solid #000;
+    border-right: none;
+    background: none;
+    -moz-border-radius: 0 0 0 0;
+    -webkit-border-radius: 0 0 0 0;
+    border-radius: 200px 0 0 200px;
+    margin-top: 100px;
+    margin-left: 753px;
+}
+
+.tiroRight {
+    position: absolute;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #000;
+    background: none;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-left: 760px;
+    margin-top: 245px;
+}
+
+.canastaRight {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-top: 80px solid transparent;
+    border-right: 190px solid #61380B;
+    border-bottom: 80px solid transparent;
+    float: right;
+    margin-left: 510px;
+    margin-top: 170px;
+}
