@@ -31,23 +31,34 @@
 .tercera {
     position: absolute;
     width: 1180px;
-    height: 300px;
+    height: 400px;
     border: 5px solid #fff;
     background: none;
-    margin-top: 150px;
+    margin-top: 90px;
     display: inline-block;
     float: left;
     border-left: none;
     border-right: none;
 }
 
-.cuarta {
-    position: absolute;
-    width: 1000px;
-    height: 300px;
-    border: 5px solid #000;
-    background: none;
-    margin-top: 150px;
-    display: inline-block;
-    float: left;
+.cuartos {
+  position: absolute;
+  width: 700px;
+  height: 400px;
+  border: 5px solid #fff;
+  background:none;
+  margin-left: 250px;
+  margin-top: 90px;
+  display: inline-block;
+}
+.quinta {
+  position: absolute;
+  width: 700px;
+  height: 0px;
+  border: 5px solid #fff;
+  background:none;
+  margin-left: 250px;
+  margin-top: 300px;
+  display: inline-block;
+  border-bottom: none;
 }
